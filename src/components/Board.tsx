@@ -2,6 +2,7 @@ import * as React from 'react';
 import { BoardState } from './GameState';
 import { SquareProps, Square } from './Square';
 import { Column, Row } from "./Layout";
+
 type BoardProps = {
   board: BoardState;
   onClick: (square: number) => void;
