@@ -14,8 +14,10 @@ export const Player = styled.button`
   font-size: 20px;
   font-weight: bold;
   max-width: 14rem;
+  border-style: none;
   height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 15px;
 `;
