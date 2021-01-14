@@ -1,5 +1,4 @@
-# Tic-tac-toe game 
-# Used JavaScript/React, TypeScript and style components
+# tic-tac-toe game using JavaScript/React, TypeScript and style components
 
 # Setup:
 1. git clone https://github.com/preetiAmb/tic-toc-toe.git
