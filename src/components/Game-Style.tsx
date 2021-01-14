@@ -10,7 +10,6 @@ export const Container = styled.div`
 `;
 
 export const Player = styled.button`
-  margin-top: 2rem;
   font-size: 20px;
   font-weight: bold;
   max-width: 14rem;

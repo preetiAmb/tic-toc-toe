@@ -1,11 +1,13 @@
 import React from 'react';
 import Game from './components/Game';
-
-import './App.css';
+import { Title } from './App-Style';
 
 function App() {
   return (
-   <div><Game /></div>
+   <div>
+     <Title>Tic toc toe</Title>
+     <Game />
+   </div>
   );
 }
 

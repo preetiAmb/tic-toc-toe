@@ -7,6 +7,7 @@ type BoardProps = {
   board: BoardState;
   onClick: (square: number) => void;
 };
+
 export function Board({ board, onClick }: BoardProps) {
   const createProps = (square: number): SquareProps => {
     return {
@@ -14,6 +15,7 @@ export function Board({ board, onClick }: BoardProps) {
       onClick: () => onClick(square),
     };
   };
+  
   return (
     <Column gap={0}>
       <Row gap={0}>

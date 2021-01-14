@@ -17,8 +17,8 @@ function Game() {
 
   return (
     <Container> 
-        <Row gap={80}>
-        <Column gap={80}>
+        <Row gap={60}>
+        <Column gap={60}>
             <Player>{
             winner
                 ? `Winner: ${winner}`
